@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#ffffff">
+    <title>Aethera® — Beyond silence</title>
+    <link rel="stylesheet" href="/css/fonts.css">
+    <link rel="stylesheet" href="/css/theme.css">
+    <link rel="stylesheet" href="/css/aethera.css">
+</head>
+<body>
+<main class="aethera-page" id="top">
+    <div class="video-layer" aria-hidden="true">
+        <video
+            id="heroVideo"
+            class="hero-video"
+            autoplay
+            muted
+            playsinline
+            preload="auto"
+            aria-hidden="true"
+        >
+            <source src="https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260328_083109_283f3553-e28f-428b-a723-d639c617eb2b.mp4" type="video/mp4">
+        </video>
+        <div class="video-gradient"></div>
+    </div>
+
+    <header class="site-header">
+        <a class="brand" href="/" aria-label="Aethera home">Aethera<sup>®</sup></a>
+
+        <nav class="site-nav" id="siteNav" aria-label="Primary navigation">
+            <a class="is-active" href="/">Home</a>
+            <a href="/home">Studio</a>
+            <a href="#about" data-panel-target="aboutPanel">About</a>
+            <a href="/briefing">Journal</a>
+            <a href="#contact" data-panel-target="contactPanel">Reach Us</a>
+        </nav>
+
+        <a class="header-cta" href="/login">Begin Journey</a>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="siteNav">
+            <span class="sr-only">Toggle navigation</span>
+            <span></span><span></span>
+        </button>
+    </header>
+
+    <section class="hero" aria-labelledby="heroTitle">
+        <div class="hero-content">
+            <p class="eyebrow animate-fade-rise">A quieter way forward</p>
+            <h1 id="heroTitle" class="hero-title animate-fade-rise">
+                Beyond <em>silence,</em> we build <em>the eternal.</em>
+            </h1>
+            <p class="hero-description animate-fade-rise-delay">
+                Building platforms for brilliant minds, fearless makers, and thoughtful souls. Through the noise, we craft digital havens for deep work and pure flows.
+            </p>
+            <a class="hero-cta animate-fade-rise-delay-2" href="/login">Begin Journey</a>
+        </div>
+    </section>
+
+    <footer class="hero-footer" aria-label="Page footer">
+        <span>Independent digital atelier</span>
+        <span class="footer-line"></span>
+        <span>Scroll to explore</span>
+    </footer>
+
+    <div class="site-panel" id="aboutPanel" role="dialog" aria-modal="true" aria-labelledby="aboutTitle" hidden>
+        <div class="panel-card">
+            <button class="panel-close" type="button" aria-label="Close about panel">×</button>
+            <p class="panel-kicker">About the studio</p>
+            <h2 id="aboutTitle">A gentler system for everyday care.</h2>
+            <p>Sekai PetPlant brings plant and pet care into one calm workspace: AI recognition, care records, reminders, knowledge, community, and a focused companion for questions.</p>
+            <div class="panel-links">
+                <a href="/home">Explore the studio <span>↗</span></a>
+                <a href="/care">Open care assistant <span>↗</span></a>
+                <a href="/disease.html">Try visual diagnosis <span>↗</span></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="site-panel" id="contactPanel" role="dialog" aria-modal="true" aria-labelledby="contactTitle" hidden>
+        <div class="panel-card">
+            <button class="panel-close" type="button" aria-label="Close contact panel">×</button>
+            <p class="panel-kicker">Reach us</p>
+            <h2>Start with a question.</h2>
+            <p>Your AI companion can help with weather, plant and pet care, image generation, and the next step in your routine.</p>
+            <div class="panel-links">
+                <a href="/chat">Open AI conversation <span>↗</span></a>
+                <a href="/community.html">Join the community <span>↗</span></a>
+                <a href="/briefing">Read your daily briefing <span>↗</span></a>
+            </div>
+        </div>
+    </div>
+</main>
+
+<script src="/js/aethera.js"></script>
+<script src="/js/common.js"></script>
+</body>
+</html>
